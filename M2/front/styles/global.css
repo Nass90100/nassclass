@@ -1,0 +1,29 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #ffffff; /* Texto blanco */
+    background-color: #000000; /* Fondo negro */
+}
+
+a:hover {
+    color: #ff0000; /* Rojo brillante al pasar el mouse */
+}
+
+button {
+    background-color: #ff0000; /* Fondo rojo */
+    color: white;
+}
+
+button:hover {
+    background-color: #cc0000; /* Fondo rojo oscuro */
+}
+
+input, textarea {
+    background-color: #222; /* Fondo oscuro */
+    color: white;
+    border: 1px solid #444;
+}
+
+input:focus, textarea:focus {
+    border-color: #ff0000; /* Rojo al enfocarse */
+}

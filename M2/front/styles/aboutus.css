@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif; /* Fuente estándar para la página. */
+    background-color: #000; /* Fondo negro para un diseño oscuro. */
+    color: #fff; /* Texto en blanco para contraste. */
+    margin: 0; /* Elimina márgenes predeterminados. */
+    padding: 0; /* Elimina padding predeterminado. */
+  }
+
+  header {
+    background-color: #222; /* Fondo gris oscuro. */
+    padding: 1rem; /* Espaciado interno. */
+    text-align: center; /* Centra el texto. */
+    border-bottom: 2px solid red; /* Línea roja decorativa. */
+  }
+
+  #intro {
+    max-width: 600px; /* Define un ancho máximo para el texto. */
+    margin: 0 auto; /* Centra el texto horizontalmente. */
+    text-align: justify; /* Alinea el texto con justificación. */
+    padding: 1rem; /* Añade un espacio interno alrededor del texto. */
+    line-height: 2.5; /* Mejora la separación entre líneas para mayor legibilidad. */
+  }
+  .xx {
+    max-width: 600px; /* Define un ancho máximo para el texto. */
+    margin: 0 auto; /* Centra el texto horizontalmente. */
+    text-align: justify; /* Alinea el texto con justificación. */
+    padding: 1rem; /* Añade un espacio interno alrededor del texto. */
+    line-height: 2.5; /* Mejora la separación entre líneas para mayor legibilidad. */
+
+  }
+
+  textarea {
+    width: 50%; /* Ocupa todo el ancho disponible del contenedor. */
+    max-width: 50; /* Define un ancho máximo para evitar que se vea demasiado grande. */
+    height: 50px; /* Ajusta la altura inicial del área de texto. */
+    padding: 7 em; /* Añade espacio interno para que el texto no quede pegado a los bordes. */
+    border: 1px solid #ccc; /* Bordes claros para que se vean estéticos. */
+    border-radius: 8px; /* Bordes redondeados para que se vea más moderna. */
+    font-size: 1rem; /* Tamaño de fuente legible. */
+    resize: vertical; /* Permite que el usuario solo ajuste la altura, no el ancho. */
+  }
